@@ -13,7 +13,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "LinkedIn", href: "www.linkedin.com/in/nishanthanantha17" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/nishanthanantha17" },
     { text: "Github", href: "https://github.com/nanantha17" },
    ],
   socialImage: "/zen-og.png",
