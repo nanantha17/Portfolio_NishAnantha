@@ -1,0 +1,39 @@
+---
+import { certifications } from '../config/index.ts'
+---
+<section id="certifications" class="section">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+    {certifications.map((cert) => (
+      <div class="cert-card">
+        <span class="cert-name">{cert.name}</span>
+        <span class="cert-meta">{cert.issuer} · {cert.date}</span>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .cert-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .cert-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  .cert-meta {
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+</style>

@@ -2,10 +2,11 @@
 import Menu from "@icons/Menu.astro";
 import { Image } from "astro:assets";
 import type { HeaderProps } from "@types";
-
+import { RESUME } from '../config/index.ts';
 type Props = HeaderProps;
 
 const { siteLogo, navLinks } = Astro.props;
+
 ---
 
 <header
@@ -49,6 +50,17 @@ const { siteLogo, navLinks } = Astro.props;
           </li>
         ))
       }
+      <!-- Resume link — same style as nav items but opens in new tab -->
+      <li class="relative">
+
+          class="nav-item relative block p-2 text-sm font-medium transition-all duration-500 hover:text-white"
+          href={RESUME}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume ↗
+        </a>
+      </li>
     </ul>
   </nav>
 </header>

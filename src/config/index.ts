@@ -19,7 +19,45 @@ export const SITE_CONFIG: SiteConfig = {
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
+export const RESUME = "/Nishanth_Anantha_AI_TPM.pdf"
 
+export const certifications = [
+  {
+    name: "Building with Claude API",
+    issuer: "Anthropic",
+    date: "Apr 2026",
+  },
+  {
+    name: "Machine Learning in Production (MLOps)",
+    issuer: "DeepLearning.ai",
+    date: "Jun 2026",
+  },
+  {
+    name: "W&B LLM Evaluation",
+    issuer: "Weights & Biases",
+    date: "Apr 2026",
+  },
+  {
+    name: "IBM GenAI & LLMs",
+    issuer: "IBM",
+    date: "Feb 2026",
+  },
+  {
+    name: "Deep Learning with TensorFlow",
+    issuer: "Kaggle",
+    date: "Apr 2026",
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "AWS",
+    date: "Oct 2024",
+  },
+  {
+    name: "PMI-PMP",
+    issuer: "PMI",
+    date: "2020, Active",
+  },
+]
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Nishanth Anantha",
@@ -75,15 +113,15 @@ export const SITE_CONTENT: SiteContent = {
       name: "Agentic Program Health System",
       summary:
         "Production agentic loop routing tool calls across GitHub CI, JIRA, and Smartsheet — synthesizes 13 live signals into Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
-      linkPreview: "/",
+      linkPreview: "https://github.com/nanantha17/AI-release-risk-predictor/blob/main/Readme_%20AgenticRelease%20Risk%20Predictor.pdf",
       linkSource: "https://github.com/nanantha17/AI-release-risk-predictor",
       image: "/Agentic_Risk_predictor.jpg",
     },
     {
     name: "Edge CV Inference System — Hayden Analog",
     summary:
-      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and Hayden-class filtering. Benchmarked model cold-start penalty (13.9x), confidence threshold operating point (0.3), and multi-stream architecture constraints. Mirrors Hayden AI's edge deployment stack.",
-    linkPreview: "/",
+      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and street filtering. Benchmarked model cold-start penalty (13.9x), confidence threshold operating point (0.3), and multi-stream architecture constraints.",
+    linkPreview: "https://github.com/nanantha17/CV_Person_Street_Detector/blob/main/README.md",
     linkSource: "https://github.com/nanantha17/CV_Person_Street_Detector",
     image: "/StreetDetector_EdgeInference.jpg",
     },
@@ -91,17 +129,17 @@ export const SITE_CONTENT: SiteContent = {
       name: "RAG Conversational AI Agent",
       summary:
         "End-to-end RAG system with full eval pipeline — BLEU/ROUGE offline through 82% CSAT, 65% deflection, 1.1s p50 latency online. HuggingFace + ChromaDB + TF Serving + W&B LLM Evals + Deepgram STT/TTS.",
-      linkPreview: "/",
+      linkPreview: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/blob/main/README.md",
       linkSource: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/tree/main",
-      image: "/RAG_STT_TTS_Evals.jpg",
+      image: "/RAG_STT_TTS_Evals.png",
     },
     {
       name: "FNN N-gram Language Model",
       summary:
         "Built from scratch in PyTorch — tokenization, embedding layers, n-gram context windows (2/4/8), CrossEntropyLoss. Comparative FNN vs. Transformer failure mode analysis with t-SNE embedding visualization tracked in W&B.",
-      linkPreview: "/",
+      linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/WnB_FFN_N_GRAM_COMPARISON.pdf",
       linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
-      image: "/FNN_song_generator.jpg",
+      image: "/FNN_song_generator.png",
     },
   ],
   about: {
