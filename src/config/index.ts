@@ -1,97 +1,114 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Nishanth Anantha — Staff Technical Program Manager",
+  author: "Nishanth Anantha",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "I ship AI systems and drive the programs that bring them to production. Staff TPM with 14 years across cloud platforms, AI/ML systems, and HW/SW integration.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Nish-small.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
-  ],
+    { text: "LinkedIn", href: "www.linkedin.com/in/nishanthanantha17" },
+    { text: "Github", href: "https://github.com/nanantha17" },
+   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Nishanth Anantha",
+    specialty: "Staff TPM · AI Systems Builder · Platform Programs",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "I ship AI systems and drive the programs that bring them to production. 14 years leading cross-functional technical programs across cloud APIs, AI/ML pipelines, and HW/SW platforms — and I build production agentic systems and RAG agents, not just manage people who do.",
+    email: "nishanth.anantha87@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "ASML",
+      position: "Staff Technical Program Manager — Cloud Platform & AI/ML",
+      startDate: "Jan 2024",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Built and deployed production agentic AI workflow system (Claude API + MCP + PyTorch + FastAPI) — multi-step agentic loop synthesizes 13 live signals from GitHub CI, JIRA, and Smartsheet into real-time Go/NoGo risk scores with SHAP explainability. Adopted by Director/VP as standard release infrastructure.",
+        "Shipped production RAG Conversational AI Agent (HuggingFace + ChromaDB + TF Serving + W&B LLM Evals) — 82% CSAT, 65% query deflection, 1.1s p50 latency. Full eval pipeline with continuous feedback loop from day one.",
+        "Owned end-to-end delivery of complex, cross-functional platform programs across cloud API, web, and mobile initiatives — coordinating product, engineering, and QA across 20+ concurrent workstreams. Built durable delivery systems (Go/NoGo frameworks, risk registers, phase gate criteria) that became organizational standards.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "ASML",
+      position: "Sr. Technical Program Manager — SW/HW Platform & Release",
+      startDate: "Mar 2019",
+      endDate: "Dec 2023",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Built full program execution framework from scratch — release success from 29% to 94% in 18 months across 30+ programs. Go/NoGo operating model and phase gate criteria became organizational standard.",
+        "Drove CI/CD transformation org-wide (Jenkins, GitHub Actions, Docker) — 65% faster software delivery. Built ensemble ML release risk predictor (PyTorch + GBM + DistilBERT, 13 signals, SHAP) — 35% reduction in last-minute integration failures.",
+        "Reduced customer-facing defects 50%; resolved $3M+ in customer escalations. Chaired Change Control Board across US, Europe, and Asia. Managed $2M+ validation infrastructure program with 70% field defect reduction.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
+      company: "ASML",
+      position: "Sr. Software Engineer / Team Lead / Scrum Master",
+      startDate: "Nov 2016",
+      endDate: "Mar 2019",
+      summary: [
+        "Engineer-to-TPM arc: shipped Python automation to production while owning SAFe Agile planning, backlog management, and release governance. Moved team from waterfall to SAFe Agile — built sprint discipline, JIRA hygiene, and cross-functional coordination cadences from scratch.",
+        "Lifted release success from 29% to 94% in 18 months; resolved $3M+ customer escalation. Awarded for Leadership and Ownership.",
+      ],
+    },
+    {
+      company: "Caterpillar · Volvo Group · Abbott · SDP Engineering",
+      position: "Sr. Electrical / Embedded SW / HW Engineer",
+      startDate: "Jan 2009",
       endDate: "Oct 2016",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Python/C automation, HIL testbenches, CAN protocols (J1939/J1587), FPGA-based real-time systems across automotive, industrial, and medical domains. $500K+ field escalation resolution. Volvo Patent Idea of the Year — Global Patent Council (2012).",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Agentic Program Health System",
+      summary:
+        "Production agentic loop routing tool calls across GitHub CI, JIRA, and Smartsheet — synthesizes 13 live signals into Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/nishanth-anantha",
+      image: "/project-agentic.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "RAG Conversational AI Agent",
+      summary:
+        "End-to-end RAG system with full eval pipeline — BLEU/ROUGE offline through 82% CSAT, 65% deflection, 1.1s p50 latency online. HuggingFace + ChromaDB + TF Serving + W&B LLM Evals + Deepgram STT/TTS.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/nishanth-anantha",
+      image: "/project-rag.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "FNN N-gram Language Model",
+      summary:
+        "Built from scratch in PyTorch — tokenization, embedding layers, n-gram context windows (2/4/8), CrossEntropyLoss. Comparative FNN vs. Transformer failure mode analysis with t-SNE embedding visualization tracked in W&B.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/nishanth-anantha",
+      image: "/project-fnn.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      I'm Nishanth Anantha, a Staff TPM based in San Marcos, CA — and I build AI systems as well as run the programs that bring them to production.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      My background spans 14 years across cloud API platforms, AI/ML systems, HW/SW integration, and enterprise software delivery. At ASML I shipped a production agentic AI system (Claude API + MCP + ensemble ML) and a RAG conversational agent with a full LLM eval pipeline — owning everything from architecture through deployment and continuous optimization.
+
+      On the program side, I built execution frameworks from scratch that lifted release success from 29% to 94% across 30+ programs, drove a CI/CD transformation delivering 65% faster software delivery, and managed $2M+ infrastructure programs with measurable field defect reduction.
+
+      I hold a PMI-PMP, AWS Cloud Practitioner, and multiple AI/ML certifications — Anthropic Claude API, Claude on Google Cloud Vertex AI, MLOps in Production (DeepLearning.AI), W&B LLM Evals, and IBM GenAI & LLMs. M.S. Electrical Engineering, USC.
+
+      Currently open to Staff TPM, PM, and AI program roles — especially at AI-native companies.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/Nish-big.png",
   },
 };
 
