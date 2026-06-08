@@ -112,15 +112,15 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Agentic Program Health System",
       summary:
-        "Production agentic loop routing tool calls across GitHub CI, JIRA, and Smartsheet — synthesizes 13 live signals into Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
+        "Production agentic loop — 13 live signals from GitHub CI, JIRA, Smartsheet → Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
       linkPreview: "https://github.com/nanantha17/AI-release-risk-predictor/blob/main/Readme_%20AgenticRelease%20Risk%20Predictor.pdf",
       linkSource: "https://github.com/nanantha17/AI-release-risk-predictor",
       image: "/Agentic_Risk_predictor.jpg",
     },
     {
-    name: "Edge CV Inference System — Hayden Analog",
+    name: "Edge CV Inference System ",
     summary:
-      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and street filtering with multi architecture benchmarks.",
+      "YOLOv3 person/vehicle detector as versioned FastAPI service — p50/p95 latency tracking, cold-start benchmarking, confidence threshold analysis.",
     linkPreview: "https://github.com/nanantha17/CV_Person_Street_Detector/blob/main/README.md",
     linkSource: "https://github.com/nanantha17/CV_Person_Street_Detector",
     image: "/StreetDetector_EdgeInference.jpg",
@@ -128,7 +128,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "RAG Conversational AI Agent",
       summary:
-        "End-to-end RAG system with full eval pipeline — BLEU/ROUGE offline through 82% CSAT, 65% deflection, 1.1s p50 latency online. HuggingFace + ChromaDB + TF Serving + W&B LLM Evals + Deepgram STT/TTS.",
+        "End-to-end RAG with voice (STT/TTS) pipeline — 82% CSAT, 65% deflection, 1.1s p50. BLEU/ROUGE offline eval through W&B LLM Evals online",
       linkPreview: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/blob/main/README.md",
       linkSource: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/tree/main",
       image: "/RAG_STT_TTS_Evals.png",
@@ -136,7 +136,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "FNN N-gram Language Model",
       summary:
-        "Built from scratch in PyTorch — tokenization, embedding layers, n-gram context windows (2/4/8), CrossEntropyLoss. Comparative FNN vs. Transformer failure mode analysis with t-SNE embedding visualization tracked in W&B.",
+        "FNN language model from scratch in PyTorch — 2/4/8-gram comparison, t-SNE embedding visualization, failure mode analysis tracked in W&B.",
       linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/WnB_FFN_N_GRAM_COMPARISON.pdf",
       linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
       image: "/FNN_song_generator.png",
@@ -144,15 +144,17 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      I'm Nishanth Anantha, a Staff TPM based in San Marcos, CA — and I build AI systems as well as run the programs that bring them to production.
+     I'm Nishanth Anantha, a Staff TPM based in San Marcos, CA — I build AI systems and run the programs that bring them to production.
 
-      My background spans 14 years across cloud API platforms, AI/ML systems, HW/SW integration, and enterprise software delivery. At ASML I shipped a production agentic AI system (Claude API + MCP + ensemble ML) and a RAG conversational agent with a full LLM eval pipeline — owning everything from architecture through deployment and continuous optimization.
+    Builder. Connector. Translator. I create execution infrastructure that didn't exist before I arrived, connect HW/FW/SW/AI teams around a shared reality, and translate business commitments into engineering capacity plans — surfacing tradeoffs before they become misses.
 
-      On the program side, I built execution frameworks from scratch that lifted release success from 29% to 94% across 30+ programs, drove a CI/CD transformation delivering 65% faster software delivery, and managed $2M+ infrastructure programs with measurable field defect reduction.
+    My background spans 14 years across hardware NPI, embedded systems, AI/ML, and cloud platform programs. At ASML I shipped a production agentic AI system (Claude API + MCP + ensemble ML) adopted by Director/VP stakeholders, a RAG conversational agent (82% CSAT, 1.1s p50), and an edge CV inference system benchmarked against real deployment constraints. I own everything from architecture through production.
 
-      I hold a PMI-PMP, AWS Cloud Practitioner, and multiple AI/ML certifications — Anthropic Claude API, Claude on Google Cloud Vertex AI, MLOps in Production (DeepLearning.AI), W&B LLM Evals, and IBM GenAI & LLMs. M.S. Electrical Engineering, USC.
+    On the program side, I built execution frameworks from scratch that lifted release success from 29% to 94% across 30+ programs, chaired a cross-ocean Change Control Board across US, Europe, and Asia, and drove a CI/CD transformation delivering 65% faster software delivery.
 
-      Currently open to Staff TPM, PM, and AI program roles — especially at AI-native companies.
+    PMI-PMP · AWS · Anthropic Claude API · Claude on Vertex AI · MLOps (DeepLearning.AI) · W&B LLM Evals · IBM GenAI · M.S. EE, USC
+
+    Open to Staff TPM and AI program roles at AI-native, hardware-forward, or edge AI companies
     `,
     image: "/Nish-big.png",
   },
