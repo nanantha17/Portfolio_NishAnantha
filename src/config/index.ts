@@ -120,7 +120,7 @@ export const SITE_CONTENT: SiteContent = {
     {
     name: "Edge CV Inference System — Hayden Analog",
     summary:
-      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and street filtering. Benchmarked model cold-start penalty (13.9x), confidence threshold operating point (0.3), and multi-stream architecture constraints.",
+      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and street filtering with multi architecture benchmarks.",
     linkPreview: "https://github.com/nanantha17/CV_Person_Street_Detector/blob/main/README.md",
     linkSource: "https://github.com/nanantha17/CV_Person_Street_Detector",
     image: "/StreetDetector_EdgeInference.jpg",
