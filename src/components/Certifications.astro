@@ -2,7 +2,9 @@
 import { certifications } from '../config/index.ts'
 ---
 <section id="certifications" class="section">
-  <h2>Certifications</h2>
+  <h2 class="mb-14 font-serif text-4xl font-bold tracking-tighter text-white md:text-5xl">
+  Certifications
+</h2>
   <div class="cert-grid">
     {certifications.map((cert) => (
       <div class="cert-card">
@@ -12,7 +14,7 @@ import { certifications } from '../config/index.ts'
     ))}
   </div>
 </section>
-<h2 class="text-white text-2xl font-medium mb-6">Certifications</h2>
+
 <style>
   .cert-grid {
     display: grid;
@@ -27,7 +29,7 @@ import { certifications } from '../config/index.ts'
     padding: 1rem;
     border: 1px solid var(--border);
     border-radius: 8px;
-    color: white;
+
   }
   .cert-name {
     font-weight: 500;
