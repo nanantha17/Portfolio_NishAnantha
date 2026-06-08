@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "I ship AI systems and drive the programs that bring them to production. Staff TPM with 14 years across cloud platforms, AI/ML systems, and HW/SW integration.",
   lang: "en",
-  siteLogo: "/Nish-small.png",
+  siteLogo: "/Nish-big.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -76,24 +76,32 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "Production agentic loop routing tool calls across GitHub CI, JIRA, and Smartsheet — synthesizes 13 live signals into Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
       linkPreview: "/",
-      linkSource: "https://github.com/nishanth-anantha",
-      image: "/project-agentic.png",
+      linkSource: "https://github.com/nanantha17/AI-release-risk-predictor",
+      image: "/Agentic_Risk_predictor.jpg",
+    },
+    {
+    name: "Edge CV Inference System — Hayden Analog",
+    summary:
+      "YOLOv3 person/vehicle detector deployed as a versioned FastAPI service with structured telemetry, p50/p95 latency tracking, and Hayden-class filtering. Benchmarked model cold-start penalty (13.9x), confidence threshold operating point (0.3), and multi-stream architecture constraints. Mirrors Hayden AI's edge deployment stack.",
+    linkPreview: "/",
+    linkSource: "https://github.com/nanantha17/CV_Person_Street_Detector",
+    image: "/StreetDetector_EdgeInference.jpg",
     },
     {
       name: "RAG Conversational AI Agent",
       summary:
         "End-to-end RAG system with full eval pipeline — BLEU/ROUGE offline through 82% CSAT, 65% deflection, 1.1s p50 latency online. HuggingFace + ChromaDB + TF Serving + W&B LLM Evals + Deepgram STT/TTS.",
       linkPreview: "/",
-      linkSource: "https://github.com/nishanth-anantha",
-      image: "/project-rag.png",
+      linkSource: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/tree/main",
+      image: "/RAG_STT_TTS_Evals.jpg",
     },
     {
       name: "FNN N-gram Language Model",
       summary:
         "Built from scratch in PyTorch — tokenization, embedding layers, n-gram context windows (2/4/8), CrossEntropyLoss. Comparative FNN vs. Transformer failure mode analysis with t-SNE embedding visualization tracked in W&B.",
       linkPreview: "/",
-      linkSource: "https://github.com/nishanth-anantha",
-      image: "/project-fnn.png",
+      linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
+      image: "/FNN_song_generator.jpg",
     },
   ],
   about: {
