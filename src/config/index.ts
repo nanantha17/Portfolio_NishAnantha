@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Nishanth Anantha — Staff Technical Program Manager",
+  title: "Nishanth Anantha — Staff TPM · AI Systems Builder",
   author: "Nishanth Anantha",
   description:
     "I ship AI systems and drive the programs that bring them to production. Staff TPM with 14 years across cloud platforms, AI/ML systems, and HW/SW integration.",
@@ -16,8 +16,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/nishanthanantha17" },
     { text: "Github", href: "https://github.com/nanantha17" },
    ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/og-image.png",
+  canonicalURL: "https://portfolio-nish-anantha.vercel.app",
 };
 export const RESUME = "/Nishanth_Anantha_AI_TPM.pdf"
 
@@ -69,7 +69,7 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "ASML",
-      position: "Staff Technical Program Manager — Cloud Platform & AI/ML",
+      position: "Staff Technical Program Manager — AI Systems & Platform Programs",
       startDate: "Jan 2024",
       endDate: "Present",
       summary: [
@@ -139,7 +139,7 @@ export const SITE_CONTENT: SiteContent = {
         "FNN language model from scratch in PyTorch — 2/4/8-gram comparison, t-SNE embedding visualization, failure mode analysis tracked in W&B.",
       linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/WnB_FFN_N_GRAM_COMPARISON.pdf",
       linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
-      image: "/FNN_song_generator.png",
+      image: "/FNN_WnBgraphs.png",
     },
   ],
   about: {

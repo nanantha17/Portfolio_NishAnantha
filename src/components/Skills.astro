@@ -1,0 +1,85 @@
+---
+const skillGroups = [
+  {
+    label: "Agentic AI & LLMs",
+    skills: ["Claude API", "MCP", "Agentic Loops", "RAG", "ChromaDB", "DistilBERT", "HuggingFace", "W&B LLM Evals"],
+  },
+  {
+    label: "ML & Inference",
+    skills: ["PyTorch", "GBM", "SHAP", "TensorFlow", "YOLOv3", "BLEU/ROUGE", "Ensemble ML"],
+  },
+  {
+    label: "Platform & Delivery",
+    skills: ["CI/CD", "Jenkins", "GitHub Actions", "Docker", "FastAPI", "JIRA", "Smartsheet", "Power BI"],
+  },
+  {
+    label: "Program Governance",
+    skills: ["Portfolio Governance", "Go/NoGo Frameworks", "NPI Programs", "Capacity Planning", "CCB", "SAFe/Agile"],
+  },
+  {
+    label: "Cloud & Infrastructure",
+    skills: ["AWS", "Google Vertex AI", "REST APIs", "SQL", "Python"],
+  },
+]
+---
+
+<section id="skills" class="section">
+  <h2 class="mb-14 font-serif text-4xl font-bold tracking-tighter text-white md:text-5xl">
+    Skills & Stack
+  </h2>
+  <div class="skills-wrapper">
+    {skillGroups.map((group) => (
+      <div class="skill-group">
+        <span class="group-label">{group.label}</span>
+        <div class="tag-row">
+          {group.skills.map((skill) => (
+            <span class="tag">{skill}</span>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .skill-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .group-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.45;
+    color: rgb(163 163 163);
+  }
+
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 0.25rem 0.6rem;
+    white-space: nowrap;
+  }
+</style>
