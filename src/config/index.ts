@@ -37,6 +37,11 @@ export const certifications = [
     issuer: "Weights & Biases",
     date: "Apr 2026",
   },
+{
+    name: "Red teaming LLM Apps",
+    issuer: "Giskard",
+    date: "Jun 2026",
+  },
   {
     name: "IBM GenAI & LLMs",
     issuer: "IBM",
