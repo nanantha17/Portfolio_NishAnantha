@@ -118,7 +118,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Agentic Program Health System",
       summary:
         "Production agentic loop — 13 live signals from GitHub CI, JIRA, Smartsheet → Go/NoGo risk scores with SHAP explainability. 40% release risk reduction. Adopted by Director/VP.",
-      linkPreview: "https://github.com/nanantha17/AI-release-risk-predictor/blob/main/Readme_%20AgenticRelease%20Risk%20Predictor.pdf",
+      linkPreview: "https://github.com/nanantha17/AI-release-risk-predictor/blob/main/README.md",
       linkSource: "https://github.com/nanantha17/AI-release-risk-predictor",
       image: "/Agentic_Risk_predictor.jpg",
     },
