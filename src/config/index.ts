@@ -80,7 +80,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Built and deployed production agentic AI workflow system (Claude API + MCP + PyTorch + FastAPI) — multi-step agentic loop synthesizes 13 live signals from GitHub CI, JIRA, and Smartsheet into real-time Go/NoGo risk scores with SHAP explainability. Adopted by Director/VP as standard release infrastructure.",
         "Shipped production RAG Conversational AI Agent (HuggingFace + ChromaDB + TF Serving + W&B LLM Evals) — 82% CSAT, 65% query deflection, 1.1s p50 latency. Full eval pipeline with continuous feedback loop from day one.",
-        "Owned end-to-end delivery of complex, cross-functional platform programs across cloud API, web, and mobile initiatives — coordinating product, engineering, and QA across 20+ concurrent workstreams. Built durable delivery systems (Go/NoGo frameworks, risk registers, phase gate criteria) that became organizational standards.",
+        "Owned end-to-end delivery of complex, cross-functional platform programs across cloud API, EDGE initiatives — coordinating product, engineering, and QA across 20+ concurrent workstreams. Built durable delivery systems (Go/NoGo frameworks, risk registers, phase gate criteria) that became organizational standards.",
       ],
     },
     {
@@ -105,12 +105,15 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
     {
-      company: "Caterpillar · Volvo Group · Abbott · SDP Engineering",
+      company: "Caterpillar · Abbott · Volvo Group ",
       position: "Sr. Electrical / Embedded SW / HW Engineer",
-      startDate: "Jan 2009",
-      endDate: "Oct 2016",
-      summary:
-        "Python/C automation, HIL testbenches, CAN protocols (J1939/J1587), FPGA-based real-time systems across automotive, industrial, and medical domains. $500K+ field escalation resolution. Volvo Patent Idea of the Year — Global Patent Council (2012).",
+      startDate: "Jul 2009",
+      endDate: "Nov 2016",
+      summary:[
+          "Caterpillar/ARi (2014–2016): Embedded C test development on dSPACE ATEs for Freescale MPC535 microcontrollers; PWM/complex I/O test plans; Lauterbach firmware debugging; circuit prototyping; $500K+ field escalation resolution.",
+          "Abbott (2014): LabVIEW CVI ATE testbench for heart pacer IC/wafer characterization; GPIB/VISA instrument drivers; FDA-compliant documentation.",
+          "Volvo Group (2009–2012): FPGA-based cRIO LabVIEW real-time HIL ATE; CAN J1939/J1587 protocol testing global owner of Bluetooth infotainment SW requirements on NI TestStand; Patent Idea of the Year 2012.",
+          ],
     },
   ],
   projects: [
@@ -123,9 +126,9 @@ export const SITE_CONTENT: SiteContent = {
       image: "/Agentic_Risk_predictor.jpg",
     },
     {
-    name: "Edge CV Inference System ",
+    name: "Edge CV: The Cold-Start Penalty",
     summary:
-      "YOLOv3 person/vehicle detector as versioned FastAPI service — p50/p95 latency tracking, cold-start benchmarking, confidence threshold analysis.",
+      "YOLOv3 detector containerized with Docker, deployed to AWS Elastic Beanstalk — p50/p95 latency tracking, cold-start benchmarking, multi-stream threading limits.",
     linkPreview: "https://github.com/nanantha17/CV_Person_Street_Detector/blob/main/README.md",
     linkSource: "https://github.com/nanantha17/CV_Person_Street_Detector",
     image: "/StreetDetector_EdgeInference.jpg",
@@ -142,18 +145,18 @@ export const SITE_CONTENT: SiteContent = {
       name: "FNN N-gram Language Model",
       summary:
         "FNN language model from scratch in PyTorch — 2/4/8-gram comparison, t-SNE embedding visualization, failure mode analysis tracked in W&B.",
-      linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/WnB_FFN_N_GRAM_COMPARISON.pdf",
+      linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/README.md",
       linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
       image: "/FNN_WnBgraphs.png",
     },
   ],
   about: {
     description: `
-     I'm Nishanth Anantha, a Staff TPM based in San Marcos, CA — I build AI systems and run the programs that bring them to production.
+     I'm Nishanth Anantha, a Staff TPM who not only builds the AI systems but also ship to production — not just one or the other.
 
     Builder. Connector. Translator. I create execution infrastructure that didn't exist before I arrived, connect HW/FW/SW/AI teams around a shared reality, and translate business commitments into engineering capacity plans — surfacing tradeoffs before they become misses.
 
-    My background spans 14 years across hardware NPI, embedded systems, AI/ML, and cloud platform programs. At ASML I shipped a production agentic AI system (Claude API + MCP + ensemble ML) adopted by Director/VP stakeholders, a RAG conversational agent (82% CSAT, 1.1s p50), and an edge CV inference system benchmarked against real deployment constraints. I own everything from architecture through production.
+    My background spans 14 years across hardware NPI, embedded systems, production ML systems, and cloud platform programs. At ASML I shipped a production agentic AI system (Claude API + MCP + ensemble ML) adopted by Director/VP stakeholders, a RAG conversational agent (82% CSAT, 1.1s p50), and an edge CV inference system benchmarked against real deployment constraints. I own everything from architecture through production.
 
     On the program side, I built execution frameworks from scratch that lifted release success from 29% to 94% across 30+ programs, chaired a cross-ocean Change Control Board across US, Europe, and Asia, and drove a CI/CD transformation delivering 65% faster software delivery.
 
