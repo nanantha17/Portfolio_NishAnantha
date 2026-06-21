@@ -134,7 +134,7 @@ export const SITE_CONTENT: SiteContent = {
     image: "/StreetDetector_EdgeInference.jpg",
     },
     {
-      name: "RAG Conversational AI Agent",
+      name: "VoiceGate-Production-Grade-Voice-Agent",
       summary:
         "End-to-end RAG with voice (STT/TTS) pipeline — 82% CSAT, 65% deflection, 1.1s p50. BLEU/ROUGE offline eval through W&B LLM Evals online",
       linkPreview: "https://github.com/nanantha17/RAG-based-chatbotEval-STT-TTS/blob/main/README.md",
