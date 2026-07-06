@@ -152,7 +152,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-     I'm Nishanth Anantha, a Staff TPM who not only builds the AI systems but also ship to production — not just one or the other.
+     I'm Nishanth Anantha, a Staff TPM who not only builds the AI systems but also ships to production — not just one or the other.
 
     Builder. Connector. Translator. I create execution infrastructure that didn't exist before I arrived, connect HW/FW/SW/AI teams around a shared reality, and translate business commitments into engineering capacity plans — surfacing tradeoffs before they become misses.
 
