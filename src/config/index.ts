@@ -32,25 +32,21 @@ export const certifications = [
     issuer: "DeepLearning.ai",
     date: "Jun 2026",
   },
-  {
-    name: "W&B LLM Evaluation",
-    issuer: "Weights & Biases",
-    date: "Apr 2026",
-  },
+
 {
     name: "Red teaming LLM Apps",
     issuer: "Giskard",
     date: "Jun 2026",
   },
   {
-    name: "IBM GenAI & LLMs",
-    issuer: "IBM",
-    date: "Feb 2026",
+    name: "Safe and reliable AI via guardrails",
+    issuer: "Guardrails AI",
+    date: "Jun 2026",
   },
   {
-    name: "Deep Learning with TensorFlow",
-    issuer: "Kaggle",
-    date: "Apr 2026",
+    name: "Build/Deploy multi agents with NeMO agent toolkit",
+    issuer: "NVidia",
+    date: "Jul 2026",
   },
   {
     name: "AWS Certified Cloud Practitioner",
@@ -160,7 +156,7 @@ export const SITE_CONTENT: SiteContent = {
 
     On the program side, I built execution frameworks from scratch that lifted release success from 29% to 94% across 30+ programs, chaired a cross-ocean Change Control Board across US, Europe, and Asia, and drove a CI/CD transformation delivering 65% faster software delivery.
 
-    PMI-PMP · AWS · Anthropic Claude API · Claude on Vertex AI · MLOps (DeepLearning.AI) · W&B LLM Evals · IBM GenAI · M.S. EE, USC
+    PMI-PMP · AWS · Anthropic Claude API ·MLOps (DeepLearning.AI) · NeMo Agent toolkit/LangGraph · M.S. EE, USC
 
     Open to Staff TPM and AI program roles at AI-native, hardware-forward, or edge AI companies
     `,
