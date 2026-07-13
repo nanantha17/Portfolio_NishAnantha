@@ -138,13 +138,12 @@ export const SITE_CONTENT: SiteContent = {
       image: "/RAG_STT_TTS_Evals.png",
     },
     {
-      name: "FNN N-gram Language Model",
-      summary:
-        "FNN language model from scratch in PyTorch — 2/4/8-gram comparison, t-SNE embedding visualization, failure mode analysis tracked in W&B.",
-      linkPreview: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/blob/main/README.md",
-      linkSource: "https://github.com/nanantha17/FFN_Language_Modeling_NGram/tree/main",
-      image: "/FNN_WnBgraphs.png",
-    },
+    name: "NIM Release Risk Agent",
+    summary:"NVIDIA NeMo Agent Toolkit + NIM (Llama 3.1) ReAct agent — live GitHub signals scored via a production risk API. Used Phoenix tracing to cut latency ~20%; built a custom eval suite after finding standard RAG metrics couldn't score a tool-calling agent.",
+  linkPreview: "https://github.com/nanantha17/nim-release-risk-agent/blob/main/README.md",
+  linkSource: "https://github.com/nanantha17/nim-release-risk-agent",
+  image: "/NIM_Rel_Agent.png",
+},
   ],
   about: {
     description: `
