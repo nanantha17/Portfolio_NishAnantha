@@ -142,8 +142,8 @@ export const SITE_CONTENT: SiteContent = {
     summary:"NVIDIA NeMo Agent Toolkit + NIM (Llama 3.1) ReAct agent — live GitHub signals scored via a production risk API. Used Phoenix tracing to cut latency ~20%; built a custom eval suite after finding standard RAG metrics couldn't score a tool-calling agent.",
   linkPreview: "https://github.com/nanantha17/nim-release-risk-agent/blob/main/README.md",
   linkSource: "https://github.com/nanantha17/nim-release-risk-agent",
-  image: "/NIM_Rel_Agent.png",
-},
+  image: "/NIM_Rel_Agent.jpg",
+    },
   ],
   about: {
     description: `
