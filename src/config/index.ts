@@ -32,7 +32,11 @@ export const certifications = [
     issuer: "DeepLearning.ai",
     date: "Jun 2026",
   },
-
+  {
+    name: "Agentic AI",
+    issuer: "Deeplearning AI",
+    date: "Jul 2026",
+  },
 {
     name: "Red teaming LLM Apps",
     issuer: "Giskard",
@@ -44,7 +48,7 @@ export const certifications = [
     date: "Jun 2026",
   },
   {
-    name: "Build/Deploy multi agents with NeMO agent toolkit",
+    name: "Build/Deploy ReAct Agent with NeMO agent toolkit",
     issuer: "NVidia",
     date: "Jul 2026",
   },
@@ -76,8 +80,8 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Built and deployed production agentic AI workflow system (Claude API + MCP + PyTorch + FastAPI) — multi-step agentic loop synthesizes 13 live signals from GitHub CI, JIRA, and Smartsheet into real-time Go/NoGo risk scores with SHAP explainability. Adopted by Director/VP as standard release infrastructure.",
         "Shipped production RAG Conversational AI Agent (HuggingFace + ChromaDB + TF Serving + W&B LLM Evals) — 82% CSAT, 65% query deflection, 1.1s p50 latency. Full eval pipeline with continuous feedback loop from day one.",
-        "Owned end-to-end delivery of complex, cross-functional platform programs across cloud API, EDGE initiatives — coordinating product, engineering, and QA across 20+ concurrent workstreams. Built durable delivery systems (Go/NoGo frameworks, risk registers, phase gate criteria) that became organizational standards.",
-      ],
+        "Owned end-to-end delivery of complex, cross-functional platform programs across cloud API, EDGE initiatives — coordinating product, engineering, and QA across 12 engineering teams and 5 product lines. Built durable delivery systems (Go/NoGo frameworks, risk registers, phase gate criteria) that became organizational standards.",
+        ],
     },
     {
       company: "ASML",
@@ -85,7 +89,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Mar 2019",
       endDate: "Dec 2023",
       summary: [
-        "Built full program execution framework from scratch — release success from 29% to 94% in 18 months across 30+ programs. Go/NoGo operating model and phase gate criteria became organizational standard.",
+        "Built full program execution framework from scratch — release success from 29% to 94% in 18 months across 30+ program releases. Go/NoGo operating model and phase gate criteria became organizational standard.",
         "Drove CI/CD transformation org-wide (Jenkins, GitHub Actions, Docker) — 65% faster software delivery. Built ensemble ML release risk predictor (PyTorch + GBM + DistilBERT, 13 signals, SHAP) — 35% reduction in last-minute integration failures.",
         "Reduced customer-facing defects 50%; resolved $3M+ in customer escalations. Chaired Change Control Board across US, Europe, and Asia. Managed $2M+ validation infrastructure program with 70% field defect reduction.",
       ],
